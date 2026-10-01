@@ -1,0 +1,1 @@
+One note per person in your life (`type: person`, template in `00_Meta/Templates/person.md`). This is real personal data, so keep the folder private and record only what is useful and what you are comfortable keeping.

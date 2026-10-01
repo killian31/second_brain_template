@@ -1,0 +1,1 @@
+Syntheses your agent filed after a conversation: comparisons, reasoning behind a decision, plans, reviews (`type: analysis`, template in `00_Meta/Templates/analysis.md`). They are always marked as agent-written and never treated as an outside source.

@@ -1,0 +1,1 @@
+Stable facts about you: profile, preferences, goals. Typical notes are `Profile.md`, `Preferences.md` and `Goals.md`, each `type: profile`. Your agent writes and updates them as it learns about you, and never invents anything.

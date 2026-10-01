@@ -1,0 +1,1 @@
+Commitments you made and why (`type: decision`, template in `00_Meta/Templates/decision.md`). A decision stays binding until you reverse it. One decision per note. Agent syntheses that are not commitments go in `Analyses/`.

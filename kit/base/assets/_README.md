@@ -1,0 +1,1 @@
+Images, diagrams, PDFs and short clips embedded in notes. Give files descriptive names (`benchmark-results.png`, not `image1.png`). Link to large media where it already lives and keep it out of the repo.

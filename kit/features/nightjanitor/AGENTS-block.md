@@ -1,0 +1,3 @@
+### NightJanitor (nightly maintenance agent)
+
+A scheduled run tidies the vault every night. It files [[Inbox]], splits notes that have grown past one idea, fixes links and rebuilds [[INDEX]]. It also acts on instructions left inside notes: write `@NightJanitor please clean this.` in any note, and the next run does it within fixed limits, then replaces the mention with a `> [!done] NightJanitor …` marker. Do not resolve a live mention yourself unless the user asks. The convention and the refusal rules are in [[00_Meta/Agent Commands|Agent Commands]], every run is logged in [[00_Meta/Consolidation Log|Consolidation Log]], and the prompt and schedule are in [[00_Meta/Scheduled Agents|Scheduled Agents]].

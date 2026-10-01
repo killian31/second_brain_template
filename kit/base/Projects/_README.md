@@ -1,0 +1,1 @@
+Things you are building, each with a `status` (`type: project`, template in `00_Meta/Templates/project.md`). A project note is a hub. Detail that could be reused elsewhere goes in its own `Knowledge/` note, linked from here.

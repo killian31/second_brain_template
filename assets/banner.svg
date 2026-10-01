@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 440" width="1280" height="440" role="img" aria-label="Second Brain: a memory your AI agents read before they work and write to when they are done. Small linked notes about you, your projects and your decisions. Plain markdown, any agent, on your machine.">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="4"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.55 -0.12"/>
+    </filter>
+    <filter id="stamp" x="-10%" y="-20%" width="120%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="7" result="warp"/>
+      <feDisplacementMap in="SourceGraphic" in2="warp" scale="3.5" result="d"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="3" seed="12" result="spk"/>
+      <feColorMatrix in="spk" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -1.9 1.9" result="mask"/>
+      <feComposite in="d" in2="mask" operator="in"/>
+    </filter>
+    <clipPath id="card"><rect x="120" y="134" width="1040" height="262" rx="9"/></clipPath>
+  </defs>
+
+  <rect width="1280" height="440" rx="20" fill="#1f3d36"/>
+  <rect width="1280" height="440" rx="20" filter="url(#grain)" opacity=".5"/>
+
+  <g transform="rotate(-1.1 640.0 220.0)">
+    <rect x="129" y="145" width="1040" height="262" rx="9" fill="#12261f"/>
+    <path d="M120 88 q0 -8 8 -8 H984 v-20 q0 -8 8 -8 h134 q8 0 8 8 v20 H1152 q8 0 8 8 V194 H120 Z" fill="#cdb98c" stroke="#211d17" stroke-opacity=".28"/><text x="1059" y="71" text-anchor="middle" font-family="'American Typewriter', 'Courier Prime', 'Courier New', Courier, monospace" font-size="12.5" letter-spacing="1.6" fill="#211d17" fill-opacity=".82">DAILY</text><path d="M120 97 q0 -8 8 -8 H818 v-20 q0 -8 8 -8 h134 q8 0 8 8 v20 H1152 q8 0 8 8 V194 H120 Z" fill="#a07fa6" stroke="#211d17" stroke-opacity=".28"/><text x="893" y="80" text-anchor="middle" font-family="'American Typewriter', 'Courier Prime', 'Courier New', Courier, monospace" font-size="12.5" letter-spacing="1.6" fill="#211d17" fill-opacity=".82">SOURCES</text><path d="M120 106 q0 -8 8 -8 H652 v-20 q0 -8 8 -8 h134 q8 0 8 8 v20 H1152 q8 0 8 8 V194 H120 Z" fill="#6c93ad" stroke="#211d17" stroke-opacity=".28"/><text x="727" y="89" text-anchor="middle" font-family="'American Typewriter', 'Courier Prime', 'Courier New', Courier, monospace" font-size="12.5" letter-spacing="1.6" fill="#211d17" fill-opacity=".82">KNOWLEDGE</text><path d="M120 115 q0 -8 8 -8 H486 v-20 q0 -8 8 -8 h134 q8 0 8 8 v20 H1152 q8 0 8 8 V194 H120 Z" fill="#8aa987" stroke="#211d17" stroke-opacity=".28"/><text x="561" y="98" text-anchor="middle" font-family="'American Typewriter', 'Courier Prime', 'Courier New', Courier, monospace" font-size="12.5" letter-spacing="1.6" fill="#211d17" fill-opacity=".82">PEOPLE</text><path d="M120 124 q0 -8 8 -8 H320 v-20 q0 -8 8 -8 h134 q8 0 8 8 v20 H1152 q8 0 8 8 V194 H120 Z" fill="#c8674b" stroke="#211d17" stroke-opacity=".28"/><text x="395" y="107" text-anchor="middle" font-family="'American Typewriter', 'Courier Prime', 'Courier New', Courier, monospace" font-size="12.5" letter-spacing="1.6" fill="#211d17" fill-opacity=".82">PROJECTS</text><path d="M120 133 q0 -8 8 -8 H154 v-20 q0 -8 8 -8 h134 q8 0 8 8 v20 H1152 q8 0 8 8 V194 H120 Z" fill="#d9a441" stroke="#211d17" stroke-opacity=".28"/><text x="229" y="116" text-anchor="middle" font-family="'American Typewriter', 'Courier Prime', 'Courier New', Courier, monospace" font-size="12.5" letter-spacing="1.6" fill="#211d17" fill-opacity=".82">ABOUT ME</text>
+    <rect x="120" y="134" width="1040" height="262" rx="9" fill="#f3ecd9" stroke="#211d17" stroke-opacity=".3"/>
+    <g clip-path="url(#card)">
+      <line x1="120" y1="226" x2="1160" y2="226" stroke="#9fc0d2" stroke-width="1.2"/><line x1="120" y1="260" x2="1160" y2="260" stroke="#9fc0d2" stroke-width="1.2"/><line x1="120" y1="294" x2="1160" y2="294" stroke="#9fc0d2" stroke-width="1.2"/><line x1="120" y1="328" x2="1160" y2="328" stroke="#9fc0d2" stroke-width="1.2"/><line x1="120" y1="362" x2="1160" y2="362" stroke="#9fc0d2" stroke-width="1.2"/>
+      <line x1="120" y1="192" x2="1160" y2="192" stroke="#c23b2a" stroke-opacity=".75" stroke-width="1.6"/>
+      <rect x="120" y="134" width="1040" height="262" filter="url(#grain)" opacity=".55"/>
+    </g>
+    <circle cx="640.0" cy="374" r="10" fill="#1f3d36" stroke="#211d17" stroke-opacity=".35"/>
+
+    <text x="168" y="179" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-size="44" font-weight="700" letter-spacing="-.5" fill="#211d17">Second Brain</text>
+    <text x="1116" y="177" text-anchor="end" font-family="'American Typewriter', 'Courier Prime', 'Courier New', Courier, monospace" font-size="14" letter-spacing=".6" fill="#211d17" fill-opacity=".62">a setup kit for your AI agent  ·  № 1</text>
+
+    <g font-family="'American Typewriter', 'Courier Prime', 'Courier New', Courier, monospace" font-size="19.5" fill="#211d17">
+      <text x="168" y="217" fill-opacity=".55">summary:</text>
+      <text x="284" y="217">A memory your AI agents read before they work</text>
+      <text x="284" y="251">and write to when they are done.</text>
+      <text x="168" y="319">Small linked notes about <tspan fill="#2b5a86">[[you]]</tspan>, your <tspan fill="#2b5a86">[[projects]]</tspan></text>
+      <text x="168" y="353">and your <tspan fill="#2b5a86">[[decisions]]</tspan>. Plain markdown, on your machine.</text>
+    </g>
+
+    <g transform="rotate(-9 970 302)" filter="url(#stamp)" fill="none" stroke="#c23b2a" opacity=".9">
+      <rect x="842" y="254" width="256" height="96" rx="7" stroke-width="4.5"/>
+      <rect x="851" y="263" width="238" height="78" rx="4" stroke-width="1.6"/>
+      <g font-family="Impact, 'Haettenschweiler', 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif" font-weight="400" fill="#c23b2a" stroke="none" text-anchor="middle" letter-spacing="4">
+        <text x="970" y="297" font-size="28">READ FIRST</text>
+        <text x="970" y="328" font-size="28">WRITE BACK</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+/* Home dashboard — applies only to notes with `cssclasses: [home]`.
+   Uses theme variables only, so it follows any theme, light or dark. */
+
+.home { --file-line-width: 60rem; }
+
+.home h2 {
+  margin-top: 1.8rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--background-modifier-border);
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+}
+
+/* Dataview LIST results become a wrap of pill-shaped chips */
+.home .dataview-ul,
+.home ul.dataview.list-view-ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 0;
+}
+
+.home .dataview-ul > li,
+.home ul.dataview.list-view-ul > li {
+  margin: 0;
+  padding: 0.25rem 0.8rem;
+  border-radius: 999px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  font-size: 0.9rem;
+}
+
+.home .dataview-ul > li::marker,
+.home ul.dataview.list-view-ul > li::marker { content: ""; }
+
+.home .dataview-ul a,
+.home ul.dataview.list-view-ul a { text-decoration: none; }
+
+.home .dataview-ul > li:hover,
+.home ul.dataview.list-view-ul > li:hover { border-color: var(--interactive-accent); }
+
+/* Dataview TABLE results: full width, quiet rows */
+.home table.dataview {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.home table.dataview th {
+  text-align: left;
+  color: var(--text-muted);
+  font-weight: 600;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.home table.dataview td { border-bottom: 1px solid var(--background-modifier-border-hover, transparent); }
+.home table.dataview tr:hover td { background: var(--background-secondary); }
+
+/* Hide Dataview's "(n)" result counters on this page */
+.home .dataview.small-text { display: none; }
